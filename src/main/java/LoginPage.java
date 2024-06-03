@@ -23,7 +23,6 @@ public class LoginPage extends BasePage {
     @FindBy(id = "password")
     private WebElement passwordField;
 
-//    @FindBy(css = ".svg-inline--fa.fa-sign-in-alt.fa-w-16")
     @FindBy(xpath = "/html/body/div[3]/div/div/div[2]/div/form/button")
     private WebElement loginButton;
 
